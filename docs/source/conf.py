@@ -68,3 +68,5 @@ html_static_path = ['_static']
 html_theme_options = {
     "navigation_with_keys": True,
 }
+
+html_title = "OOP Python"
