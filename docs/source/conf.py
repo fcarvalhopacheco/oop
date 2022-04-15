@@ -39,6 +39,7 @@ extensions = [
     "nbsphinx",
     "sphinx.ext.intersphinx",
     "sphinx.ext.autosectionlabel",
+    "sphinx_design",
 ]
 
 source_suffix = '.md'
