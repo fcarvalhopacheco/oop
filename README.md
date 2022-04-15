@@ -1,8 +1,6 @@
 #  Object Oriented Programming 
 
-+ Reference: [Curso OOP](https://henriquebastos.nutror.com/curso/6152129344fcd42f1322ec2c667c1a1a93b3873d/orientacao-a-objetos-na-pratica/aula/3895758)
++ Reference:
+  1. [Curso OOP](https://henriquebastos.nutror.com/curso/6152129344fcd42f1322ec2c667c1a1a93b3873d/orientacao-a-objetos-na-pratica/aula/3895758)
+  2. [Object-Oriented Programming in Python](https://app.datacamp.com/learn/courses/object-oriented-programming-in-python)
 
-
-```zsh
- conda create --prefix ./.env
-```
