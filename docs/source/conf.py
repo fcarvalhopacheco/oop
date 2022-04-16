@@ -38,6 +38,7 @@ extensions = [
     "sphinx.ext.intersphinx",
     "sphinx.ext.autosectionlabel",
     "sphinx_design",
+    "sphinx_thebe",
 ]
 
 myst_enable_extensions = [
