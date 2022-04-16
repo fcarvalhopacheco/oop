@@ -2,12 +2,11 @@
 
 ```{toctree}
 :maxdepth: 3
-:numbered:
 :caption: Table of Contents
 
-contents/oop-fundamentals.md
-contents/inheritance-and-polymorphism.md
-contents/integrating-with-standard-python.md
-contents/best-practices-of-class-design.md
+contents/oop-fundamentals/index.md
+contents/inheritance-and-polymorphism/index.md
+contents/integrating-with-standard-python/index.md
+contents/best-practices-of-class-design/index.md
 
 ```
