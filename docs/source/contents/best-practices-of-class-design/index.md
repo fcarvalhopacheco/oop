@@ -1,9 +1,9 @@
 # Best Practices of class design
 
 ```{toctree}
-:maxdepth: 2
+:maxdepth: 3
 :numbered: True
 :caption: Table of Contents
 
-1.section.md
+1.class-best-practices.md
 ```
