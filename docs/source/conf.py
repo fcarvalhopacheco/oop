@@ -12,8 +12,8 @@
 #
 import os
 import sys
-sys.path.insert(0, os.path.abspath('.'))
 
+sys.path.insert(0, os.path.abspath('.'))
 
 # -- Project information -----------------------------------------------------
 
@@ -24,7 +24,6 @@ author = 'Fernando Carvalho Pacheco'
 # The full version, including alpha/beta/rc tags
 release = '0.0.1'
 
-
 # -- General configuration ---------------------------------------------------
 
 # Add any Sphinx extension module names here, as strings. They can be
@@ -32,19 +31,27 @@ release = '0.0.1'
 # ones.
 
 extensions = [
-    "myst_parser",
+    "myst_nb",
     "sphinx.ext.autodoc",
     "sphinx.ext.napoleon",
     "sphinx_autodoc_typehints",
-    "nbsphinx",
     "sphinx.ext.intersphinx",
     "sphinx.ext.autosectionlabel",
     "sphinx_design",
 ]
 
-myst_enable_extensions = ["colon_fence"]
+myst_enable_extensions = [
+    "colon_fence",
+]
 
-source_suffix = '.md'
+
+source_suffix = {
+    '.ipynb': 'myst-nb',
+    '.myst': 'myst-nb',
+    '.md': 'myst-nb',
+}
+
+
 
 # Add any paths that contain templates here, relative to this directory.
 templates_path = ['_templates']
@@ -73,3 +80,6 @@ html_theme_options = {
 }
 
 html_title = "OOP Python"
+
+# -- Jupyter options ---------------------------------------------------------
+jupyter_execute_notebooks = "auto"
