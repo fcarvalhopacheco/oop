@@ -45,12 +45,19 @@ myst_enable_extensions = [
     "colon_fence",
 ]
 
+# Make sure the explicity target is unique
+autosectionlabel_prefix_document = True
+autosectionlabel_maxdepth = 3
+
+myst_heading_anchors = 3
 
 source_suffix = {
     '.ipynb': 'myst-nb',
     '.myst': 'myst-nb',
     '.md': 'myst-nb',
 }
+
+autosectionlabel_prefix_document = True
 
 
 
@@ -78,9 +85,15 @@ html_static_path = ['_static']
 
 html_theme_options = {
     "navigation_with_keys": True,
+
 }
 
 html_title = "OOP Python"
 
 # -- Jupyter options ---------------------------------------------------------
 jupyter_execute_notebooks = "auto"
+
+#thebe_config = {
+#     "always_load":  True,
+#    "selector": "div.highlight"
+# }
