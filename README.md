@@ -9,5 +9,3 @@
 
 This is my repository to learn about OOP. Please check [my documentation](https://oop-learning.readthedocs.io/en/latest/)
 
-
-[![](https://github.com/fcarvalhopacheco/oop/blob/main/docs/source/_static/webpage.png)](http://oop-learning.readthedocs.io/)
