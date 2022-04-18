@@ -60,7 +60,6 @@ source_suffix = {
 autosectionlabel_prefix_document = True
 
 
-
 # Add any paths that contain templates here, relative to this directory.
 templates_path = ['_templates']
 
@@ -94,6 +93,6 @@ html_title = "OOP Python"
 jupyter_execute_notebooks = "auto"
 
 thebe_config = {
-     "always_load":  True,
-#     "selector": "div.highlight",
+    "codemirror-theme": "monokai",
+    "always_load": True,
 }
