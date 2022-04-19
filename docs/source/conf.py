@@ -93,6 +93,5 @@ html_title = "OOP Python"
 jupyter_execute_notebooks = "auto"
 
 thebe_config = {
-    "codemirror-theme": "monokai",
     "always_load": True,
 }
