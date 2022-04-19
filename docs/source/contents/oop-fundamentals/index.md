@@ -7,6 +7,5 @@
 
 1.oop-fundamentals.md
 2.oop-fundamentals.md
-3.oop-fundamentals.md
 
 ```
