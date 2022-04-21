@@ -39,6 +39,7 @@ extensions = [
     "sphinx.ext.autosectionlabel",
     "sphinx_design",
     "sphinx_thebe",
+    "sphinx_copybutton"
 ]
 
 myst_enable_extensions = [
